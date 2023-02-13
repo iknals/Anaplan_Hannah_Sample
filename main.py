@@ -63,7 +63,7 @@ def get_all_ids(username, password,wGuid,mGuid):
 
 
 def main():
-    st.title('Get Every IDs :blue_book:')
+    st.title('Get All IDs :blue_book:')
     username = st.text_input("Enter username: ")
     password = st.text_input("Enter password: ",type="password")
     wGuid = st.text_input("Enter Workspace ID: ")
